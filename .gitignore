@@ -1,0 +1,44 @@
+# Ignore large archive/backup files
+*.tar.gz
+*.tar
+*.zip
+*.iso
+*.dmg
+*.pkg
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+venv/
+env/
+
+# Node
+node_modules/
+.next/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data & Models
+*.h5
+*.pkl
+*.joblib
+*.model
+*.onnx
+.cache/
+
+# TensorFlow/PyTorch logs
+lightning_logs/
+runs/
+events.out.tfevents.*
